@@ -1,0 +1,50 @@
+body{
+    background-image: url('images/bg-c.png');  
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+.main{
+    text-align: center;
+    margin-top: 13%;
+
+}
+.main h4{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.main h1 .text{
+    color :rgb(124, 202, 6);
+    font-weight: bolder;
+}
+
+#donate{
+    font-size: 16px;
+    padding: 16px;
+    background-color:black ;
+    border: none;
+    font-weight: bold;
+    color: rgb(235, 235, 13);
+    text-align: center;
+    text-decoration: none;   
+}
+
+#donate:hover{
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.5);
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes example {
+    0%   {color:brown; right:0px; top:0px;}
+    25%  {color:green;  right:0px; top:70px;}
+   
+  }
+
